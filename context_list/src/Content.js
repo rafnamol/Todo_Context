@@ -143,7 +143,7 @@ return (
                   >
                     
                    {state.userFcontext.map((user,key) => 
-                   <MenuItem style={{width:"none"}} value={user.id}>{user.firstName + user.lastName}</MenuItem> ) }
+                   <MenuItem style={{width:"none"}} value={user.id}>{user.firstName+ " " + user.lastName}</MenuItem> ) }
                   </Select>
                   <FormHelperText className={classes.helperText}>User</FormHelperText>
                   </Grid>
