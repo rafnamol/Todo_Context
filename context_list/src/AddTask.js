@@ -110,7 +110,7 @@ const statusHandler = (e) => {
                     id="user-field"
                     freeSolo
                     value={user}
-                    options={state.userFcontext.map((user,key) => user.firstName + user.lastName ) }
+                    options={state.userFcontext.map((user,key) => user.firstName +" "+ user.lastName ) }
                     renderInput={(params) => (
                       <TextField {...params} 
                           // label="User" 
